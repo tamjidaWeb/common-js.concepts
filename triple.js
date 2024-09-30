@@ -14,3 +14,13 @@ else{
 //type coercion
 //type conversion
 //type casting
+
+
+
+
+let carName = 'volvo';
+function A(){
+    let a = 5;
+    console.log(a);
+}
+A();
