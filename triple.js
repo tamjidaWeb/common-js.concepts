@@ -19,8 +19,8 @@ else{
 
 
 let carName = 'volvo';
-function A(){
-    let a = 5;
-    console.log(a);
+function A(a,b){
+    
+    console.log(a+b);
 }
-A();
+A(4,5);
