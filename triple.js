@@ -4,11 +4,11 @@
 const first = [];
 const second = first;
 if(first == second){
-    console.log('values are equal');
+    // console.log('values are equal');
 
 }
 else{
-    console.log('not equal');
+    // console.log('not equal');
 }
 
 //type coercion
@@ -18,9 +18,18 @@ else{
 
 
 
-let carName = 'volvo';
-function A(a,b){
+// let carName = 'volvo';
+// function A(a,b){
     
-    console.log(a+b);
-}
-A(4,5);
+    // console.log(a+b);
+// }
+// A(4,5);
+
+// myFunction();
+// function myFunction(){
+//     carName= 'volvo';
+// }
+
+var carName = 'volvo';
+console.log(window);
+
