@@ -35,11 +35,14 @@
 // }
 // A();
 
-function greeting(person){
-    console.log(person);
+function greeting(greetingHandler){
+    greetingHandler();
 }
 // const name = 'halim mama';
 // const number = [45,64];
-const laptop = { price:67777, brand: 'lenevo'}
-greeting(laptop);
+// const laptop = { price:67777, brand: 'lenevo'}
+function greetingHandler(){
+    console.log('good morning');
+}
+greeting(greetingHandler);
 
