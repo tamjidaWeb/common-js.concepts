@@ -5,3 +5,8 @@ function kitchen (){
         return roast;
     }
 }
+const firstServer = kitchen();
+console.log(firstServer());
+console.log(firstServer());
+console.log(firstServer());
+console.log(firstServer());
