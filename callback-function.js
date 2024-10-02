@@ -27,10 +27,19 @@
 // }
 // document.getElementById('btn-submit').addEventListener('click',submitHandler)
 
-function A(){
+// function A(){
    
-    x=5;
-    console.log(x);
-    let x ;
+//     x=5;
+//     console.log(x);
+//     let x ;
+// }
+// A();
+
+function greeting(person){
+    console.log(person);
 }
-A();
+// const name = 'halim mama';
+// const number = [45,64];
+const laptop = { price:67777, brand: 'lenevo'}
+greeting(laptop);
+
