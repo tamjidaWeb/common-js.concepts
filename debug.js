@@ -68,30 +68,64 @@
         
 //     }
     
-let odd = 1;
-let sum =0;
-for(let i =1;i<=5;i++){
-    if(i%2 === 1){
-        sum = sum + i;
+// let odd = 1;
+// let sum =0;
+// for(let i =1;i<=5;i++){
+//     if(i%2 === 1){
+//         sum = sum + i;
       
         
         
-    }
+//     }
   
-}
-// console.log(sum);
+// }
+// // console.log(sum);
 
-let i =200;
-while(i>=100){
-    console.log(i);
-    i--;
-    break;
+// let i =200;
+// while(i>=100){
+//     console.log(i);
+//     i--;
+//     break;
   
-}
+// }
+
+// const ages = [2,5,6,7,3,4,3];
+// ages.pop();
+// console.log(ages);
+
+
+// const name = ['eli', 'mimi','sumu', 'titli'];
+
+// name.pop();
+// console.log(name);
+
+
+// const name = ['eli', 'mimi','sumu', 'titli','pitku'];
+// console.log(name.indexOf('titli'));
+// name[2]='jambura'
+// console.log(name);
 
 
 
+// const she =[];
+// const food='rice';
+// const age = 15;
 
+// console.log(Array.isArray(name));
+// console.log(Array.isArray(food));;
+// console.log(Array.isArray(age));
+
+// console.log(Array.isArray(she));
+
+
+// console.log(name.indexOf('eli'));
+
+// if(name.includes('sumi')){
+//     console.log('sumu is here');
+// }
+// else{
+//     console.log('sumu is not here');
+// }
 
 
 
