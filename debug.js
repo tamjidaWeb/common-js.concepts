@@ -148,6 +148,13 @@
 // }
 
 
+const ages= [34,23,63,43];
+const names=['alia','milo','popi','yumu'];
+
+const concate = ages.concat(names);
+console.log(ages);
+
+console.log(concate);
 
 
 
