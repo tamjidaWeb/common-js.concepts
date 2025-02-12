@@ -148,13 +148,125 @@
 // }
 
 
-const ages= [34,23,63,43];
-const names=['alia','milo','popi','yumu'];
+// const ages= [34,23,63,43];
+// const names=['alia','milo','popi','yumu'];
 
-const concate = ages.concat(names);
-console.log(ages);
+// const concate = ages.concat(names);
+// console.log(ages);
 
-console.log(concate);
+// console.log(concate);
+
+
+// let sum =0;
+// for(let i=10; i>0;i--){
+//     console.log(i);
+// }
+// let i =10;
+// while(i>0){
+//     console.log(i);
+//     i--;
+    
+// }
+
+
+
+// let sum=0;
+// for(let i=1;i<20;i++){
+//     if(i>18){
+//         break;
+       
+//     }
+// }
+// console.log('life after breakup');
+
+// for(let i=0;i<=10;i++){
+//     if(i%2 ===1){
+//         continue;
+//     }
+//     console.log("it is:",i);
+    
+// }
+
+// let n =0;
+// while(n<10){
+  
+//     n++;
+//     if(n%2==0){
+//         continue;
+//     }
+//     console.log(n);
+ 
+    
+    
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let n =0;
+// while(n<10){
+  
+//     n++;
+//     if(n%2==0){
+//         break;
+//     }
+//     console.log(n);  
+// }
+
+
+let n =18;
+while(n>0){
+    console.log(n);
+    n--;
+    if(n<15){  
+    break;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
