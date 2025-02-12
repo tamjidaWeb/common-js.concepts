@@ -127,6 +127,25 @@
 //     console.log('sumu is not here');
 // }
 
+// const tourist = ['india', 'germany', 'indoneshiaa'];
+// tourist.push('bangladesh');
+// console.log(tourist);
+// tourist.push('pipi');
+// tourist.push('miku','tilo');
+
+// // tourist.pop()
+// console.log(tourist);
+
+
+// const books=['amajonia','chader pahar','srikanto','javascript'];
+// if(books.includes('javascrit')){
+//     console.log('present');
+    
+// }
+// else{
+//     console.log('not present');
+    
+// }
 
 
 
