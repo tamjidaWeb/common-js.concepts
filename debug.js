@@ -30,12 +30,12 @@
 //     }
 
 
-    // for (let i =1; i<=30; i++){
-    //     if(i%5===0 && i%3===0){
-    //         console.log(i);
+//     for (let i =1; i<=30; i++){
+//         if(i%5===0 && i%3===0){
+//             console.log(i);
             
-    //     }
-    // }
+//         }
+//     }
 
 
 
@@ -249,19 +249,19 @@
 // }
 
 
-let country = 'bangladesh';
-let division = 'newkhali';
-let district = 'B-baria';
+// let country = 'bangladesh';
+// let division = 'newkhali';
+// let district = 'B-baria';
 
-const thana= new String ('demra');
-console.log(typeof thana);
-console.log(typeof country);
+// const thana= new String ('demra');
+// console.log(typeof thana);
+// console.log(typeof country);
 
 
 
-const number = [2,4,6,8,56,35];
-number[2]=43;
-console.log(number);
+// const number = [2,4,6,8,56,35];
+// number[2]=43;
+// console.log(number);
 
 // console.log(number.length);
 // console.log(number[1]);
@@ -286,47 +286,210 @@ const school = 'Raj uk school';
 //     console.log('dhur pari nai');
 // }
 
-const drink = 'water';
-const liquid= 'water  ';
+// const drink = 'water';
+// const liquid= 'water  ';
 
-if(drink === liquid.trim()){
-    console.log('thik ase');
+// if(drink === liquid.trim()){
+//     console.log('thik ase');
     
-}
-else{
-    console.log('khaite pari na');
+// }
+// else{
+//     console.log('khaite pari na');
     
+// }
+
+
+// const address = 'andorkilla';
+// const part = address.slice(2,5);
+// console.log(part);
+
+
+
+// const sentence = 'i am a good student';
+// console.log(sentence.split('a'));
+
+
+// const friendsStr = 'kiki, miki,pipi';
+// const friends = friendsStr.split(',');
+// console.log(friends);
+
+
+
+// const realFriends = ['rahi','pahi','milo','fgij','fifi'];
+// console.log(realFriends.join('/'));
+
+// let reverse = '';
+// for(const letter of sentence){
+//     reverse = letter + reverse;
+   
+    
+    // console.log(letter);
+    
+// }
+
+//  console.log(reverse);
+// const sentence = 'i am learning dev';
+// let rev = '';
+// for (let i =0;i<sentence.length;i++){
+
+//     const letter = sentence[i];
+//     rev = letter + rev;
+  
+    
+    
+// }
+// console.log(rev);
+
+// const reversed = sentence.split('').reverse().join();
+// console.log(reversed);
+
+
+
+// const age = 21;
+// const schools = 'rifel squire';
+// const subjects = ['chemistry', 'math','bangla']
+// const isPassed = true;
+// let isDeveloper ;
+// const bottol = ['white', 45];
+// const bottolPrice = 45;
+
+
+// const bottle = {
+//     brand: 'apple',
+//     price: 56,
+//     color: 'white',
+//     isClean: true,
+// }
+
+// const subject = {
+//     name: 'biology',
+//     teacher: 'rasheda maam',
+//     examDate: '30 feb',
+//     chapter: ['first','second'],
+//     exams:{
+//         name: 'class Test',
+//         marks:100,
+//     }
+//     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const person= {
+//     name:'sodor uddin',
+//     age:45,
+//     profession:'developer',
+//     salary:2500,
+//     married:true,
+//     'fav places': ['bandorban','saint martin']
+// }
+
+
+// const prof = 'profession';
+// person[prof] = 'banker'
+// person['fav places'] = ['pataya']
+// person.salary = 30000;
+// // console.log(person);
+
+// const computer = {
+//     brand:'lenevo',
+//     price:35000,
+//     processor:'intel',
+//     hdd:'521gb',
+//     monitor:'hp'
+// }
+
+
+// const values = Object.values(computer);
+// console.log(values);
+
+
+
+const college = {
+    name: 'VNC',
+    class: ['9','10','11','12'],
+    events:['vijay dibos','sadjinota dibos'],
+    unique:{
+        color:'blue',
+        result:{
+            gpa:5,
+            merit:'top'
+        }
+    }
+}
+// college.unique.result = 'top most'
+// console.log(college.unique.result);
+// college.events = '16 dec';
+// delete college.unique;
+// delete college;
+// console.log(college);
+
+const mobile = {
+    brand: 'samsung',
+    price:23999,
+    color: 'black',
+    camera:'12mpx',
 }
 
 
+//for of: array
+//for in: object
+
+
+// for(const prop in mobile){
+//     console.log(prop);
+//     console.log(mobile[prop]);
+// }
+// const keys = Object.keys(mobile)
+// console.log(keys);
+
+// for(const key of keys){
+//     console.log(key,mobile[key]);
+    
+// }
+
+
+const pen ={ brand:'econo', price: 34,color:'black'}
+const pencil = new Object();
+console.log(pencil);
+
+const rubber = Object.create({})
+console.log(rubber);
+
+
+const colors={
+    red:'#fff45',
+    blue:'#hh5',
+    "golden rod" :'#gjjj98',
+}
+
+// console.log(colors["golden rod"]);
 
 
 
+// const car  = {
+//     make:'toyota',
+//     model:'corolla',
+//     year:2032,
+// }
 
+// const prop = new Object();
+// prop["passenger capacity"] = 5;
+// console.log(prop);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// const capacity = new Object();
+// capacity["passenger capacity"]= 5;
+// console.log(capacity);
 
 
 
