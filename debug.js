@@ -492,7 +492,17 @@ const colors={
 // console.log(capacity);
 
 
+const student={
+    name: 'hena ',
+    id:231,
+    physics:{
+        subject:'hsc ',
+        author:'mlp',
+        marks:34,
+    }
+}
 
+console.log(student.physics);
 
 
 
