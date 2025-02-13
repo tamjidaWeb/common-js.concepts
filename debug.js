@@ -228,14 +228,88 @@
 // }
 
 
-let n =18;
-while(n>0){
-    console.log(n);
-    n--;
-    if(n<15){  
-    break;
-    }
+// let n =18;
+// while(n>0){
+//     console.log(n);
+//     n--;
+//     if(n<15){  
+//     break;
+//     }
+// }
+
+
+// let n =0;
+// while(n<50){
+//     n++;
+//     if(n%5!==0){
+//         continue; 
+//     }
+//     console.log(n);
+    
+// }
+
+
+let country = 'bangladesh';
+let division = 'newkhali';
+let district = 'B-baria';
+
+const thana= new String ('demra');
+console.log(typeof thana);
+console.log(typeof country);
+
+
+
+const number = [2,4,6,8,56,35];
+number[2]=43;
+console.log(number);
+
+// console.log(number.length);
+// console.log(number[1]);
+
+// const capital = 'dhaka  ';
+// console.log(capital[4]);
+
+// let word = capital.trim();
+// console.log(word.length);
+
+
+const school = 'Raj uk school';
+// console.log(school);
+// const subject = 'Chemistry';
+// const book= 'chemistry';
+
+// if(subject.toLowerCase()=== book.toLowerCase()){
+//     console.log('fatay dbo result');
+    
+// }
+// else{
+//     console.log('dhur pari nai');
+// }
+
+const drink = 'water';
+const liquid= 'water  ';
+
+if(drink === liquid.trim()){
+    console.log('thik ase');
+    
 }
+else{
+    console.log('khaite pari na');
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
