@@ -492,22 +492,26 @@ const colors={
 // console.log(capacity);
 
 
-const student={
-    name: 'hena ',
-    id:231,
-    physics:{
-        subject:'hsc ',
-        author:'mlp',
-        marks:34,
-    }
+// const student={
+//     name: 'hena ',
+//     id:231,
+//     physics:{
+//         subject:'hsc ',
+//         author:'mlp',
+//         marks:34,
+//     }
+// }
+
+// console.log(student.physics);
+
+
+
+
+const friends = ['bili','ema','pipi','miki'];
+for(const friend of friends){
+    console.log(friend);
+    
 }
-
-console.log(student.physics);
-
-
-
-
-
 
 
 
