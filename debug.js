@@ -586,7 +586,7 @@ const colors={
 //  ? :
 //  condition ? do something when true : do something false
 
-const age =12;
+// const age =12;
 // if(age>18){
 //     console.log('you can vote')
 // }
@@ -716,6 +716,66 @@ const age =12;
 
 
 
+
+// const myMarks = 80;
+// const friendMarks = 30;
+// if(myMarks>=80){
+//     console.log('yes you get a good point')
+//     if(friendMarks>=80){
+//         console.log('go for lunch')
+//     }
+//     else if(friendMarks>=60 && friendMarks <80){
+//         console.log('good luck ')
+//     }
+//     else if(friendMarks>=40 && friendMarks <60){
+//         console.log('unseen the text')
+//     }
+//     else{
+//         console.log('blocked him')
+//     }
+// }
+
+
+// else{
+//     console.log('im sad')
+// }
+
+
+
+
+// let num1 =30;
+// let num2=20;
+
+
+// const result=num1>num2 ? num1*2 :num1+num2
+// console.log(result)
+
+
+
+
+
+
+const age =40;
+const isStudent=true;
+let ticket=800;
+let pay;
+if(age<10){
+   pay=0
+    console.log('you baby',pay)
+}
+else if(isStudent && age<30){
+    const off = ticket*50/100;
+    const pay = ticket-off;
+    console.log('you student',pay)
+}
+else if(age>=60){
+    const off = ticket*15/100;
+    const pay = ticket-off;
+    console.log('salam',pay)
+}
+else{
+    console.log('provide ',ticket,'taka')
+}
 
 
 
