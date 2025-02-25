@@ -656,15 +656,64 @@ const age =12;
 
 
 
-const burger = 300;
-if(burger>=500){
+// const burger = 300;
+// if(burger>=500){
     
-    console.log('provide only 500 tk with a free coke')
-}
-else if(burger<500){
-    const price = burger+30;
-    console.log('no coke,please provide the coke price ', price)
-}
+//     console.log('provide only 500 tk with a free coke')
+// }
+// else if(burger<500){
+//     const price = burger+30;
+//     console.log('no coke,please provide the coke price ', price)
+// }
+
+
+
+
+
+// let height=1.52;
+// let weight = 12;
+// const BMI = weight / (height* height);
+// if(BMI< 18.5){
+//     console.log('you are under weight');
+// }
+// else if(BMI>18.5 && BMI <=24.9){
+//     console.log('you are normal')
+// }
+// else if(BMI >=25 && BMI<=29.9){
+//     console.log('you are over Weight');
+// }
+// else{
+//     console.log('you are obese');
+// }
+
+
+
+
+
+// const marks =37;
+
+// if(marks>90){
+//     console.log('get A')
+// }
+// else if(marks>80 && marks<89){
+//     console.log('get B')
+// }
+// else if(marks>70 && marks<79){
+//     console.log('get C')
+// }
+// else if(marks>60 && marks<69){
+//     console.log('get D')
+// }
+// else{
+//     console.log('Fail')
+// }
+
+
+
+
+
+
+
 
 
 
