@@ -459,12 +459,12 @@ const mobile = {
 // }
 
 
-const pen ={ brand:'econo', price: 34,color:'black'}
-const pencil = new Object();
-console.log(pencil);
+// const pen ={ brand:'econo', price: 34,color:'black'}
+// const pencil = new Object();
+// console.log(pencil);
 
-const rubber = Object.create({})
-console.log(rubber);
+// const rubber = Object.create({})
+// console.log(rubber);
 
 
 const colors={
@@ -507,15 +507,164 @@ const colors={
 
 
 
-const friends = ['bili','ema','pipi','miki'];
-for(const friend of friends){
-    console.log(friend);
+// const friends = ['bili','ema','pipi','miki'];
+// for(const friend of friends){
+//     console.log(friend);
     
+// }
+
+// console.log(object);
+
+
+
+
+// var sunglassPrice = 80;
+
+// const price = 3000;
+// if(price>=5000){
+//     const discount = price * 10 /100;
+//     const haveToPay = price - discount;
+//     console.log(haveToPay)
+// }
+// else if(price>=2000){
+//     const discount = price * 5 /100;
+//     const haveToPay = price - discount;
+//     console.log(haveToPay)
+//     console.log(price)
+// }
+
+
+
+// const age = 41;
+// const price = 500;
+// if(age<12){
+//     const discount = price *100/100;
+//     const getToPay = price-discount;
+//     console.log('you have to pay', getToPay)
+// }
+// else if(age>60){
+//     const discountt = price *50/100;
+//     const getToPay = price -discountt;
+//     console.log("you'll get 50% off",getToPay)
+// }
+// else if(age>50){
+//     const discountt = price *25/100;
+//     const getToPay = price -discountt;
+//     console.log("you'll get 25% off",getToPay)
+// }
+// else if(age>40){
+//     const discountt = price *5/100;
+//     const getToPay = price -discountt;
+//     console.log("you'll get 5% off",getToPay)
+// }
+// else{
+//     console.log('have to pay full')
+// }
+
+
+
+
+// const money =2;
+// if(money>500){
+//     console.log('rich')
+// }
+
+// else{
+//     if(money>100){
+//         console.log('chips and ice cream khao')
+//     }
+//     else{
+//         if(money>0){
+//             console.log('tui chocolate kha');
+//         }
+//         else{
+//             console.log('tui gorib vai')
+//         }
+//     }
+// }
+
+//  ? :
+//  condition ? do something when true : do something false
+
+const age =12;
+// if(age>18){
+//     console.log('you can vote')
+// }
+// else{
+//     console.log('ghumai thako')
+// }
+
+// age>18 ? console.log('vote dio') : console.log('ghumai thako')
+
+
+
+
+
+
+
+// problem -1
+// let price = 500;
+// const isLeader = false;
+
+// if(isLeader === true){
+//     price = 0;
+// }
+// else{
+//     price = price +100;
+// }
+// console.log(price)
+
+
+
+// price = isLeader === true ? 0 : price+100; 
+
+
+
+// if(isLeader === true){
+//     if(price>1000){
+//         price = price/2;
+//     }
+//     else price = 0;
+// }
+// else{
+//     price = price+100;
+// }
+
+
+// price = isLeader === true ? price > 1000 ? price/2 : 0 : price+100;
+
+
+
+
+// const isLeader = true;
+// if(isLeader === true){
+//     console.log('leader asche chair charo');
+// }
+
+// else{
+//     console.log('vitore dhukte dibi na')
+// }
+
+// const isPassed = false;
+// if(!isPassed ){
+//     console.log('bari asbi na r')
+// }
+
+// else{
+//     console.log('wow')
+// }
+
+
+
+const burger = 300;
+if(burger>=500){
+    
+    console.log('provide only 500 tk with a free coke')
 }
-
-console.log(object)
-
-
+else if(burger<500){
+    const price = burger+30;
+    console.log('no coke,please provide the coke price ', price)
+}
 
 
 
