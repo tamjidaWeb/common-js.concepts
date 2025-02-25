@@ -513,7 +513,7 @@ for(const friend of friends){
     
 }
 
-
+console.log(object)
 
 
 
