@@ -755,34 +755,105 @@ const colors={
 
 
 
-const age =40;
-const isStudent=true;
-let ticket=800;
-let pay;
-if(age<10){
-   pay=0
-    console.log('you baby',pay)
+// const age =40;
+// const isStudent=true;
+// let ticket=800;
+// let pay;
+// if(age<10){
+//    pay=0
+//     console.log('you baby',pay)
+// }
+// else if(isStudent && age<30){
+//     const off = ticket*50/100;
+//     const pay = ticket-off;
+//     console.log('you student',pay)
+// }
+// else if(age>=60){
+//     const off = ticket*15/100;
+//     const pay = ticket-off;
+//     console.log('salam',pay)
+// }
+// else{
+//     console.log('provide ',ticket,'taka')
+// }
+
+
+
+
+// const ages = [];
+
+// num.pop()
+// console.log(num)
+
+// const num = [12, 34, 65, 39,55,43];
+// num.unshift(2222);
+// console.log(num)
+// const friends = ['balam','kalam','gelam','pailam'];
+// const ful ='hi'
+// const pi = 12;
+// const num = [];
+// console.log(Array.isArray(pi))
+
+
+
+
+
+
+
+
+// console.log(fruits[2]);
+// fruits[1] = 'jambura'; 
+// console.log(fruits)
+
+
+
+
+
+
+// const destination= ['najirabazar','bongsal','puran dhaka'];
+// destination.push('ramna park','buet campus','nanna biriyani');
+// destination.pop();
+// console.log(destination)
+
+
+
+
+// const books = ['bangla','math','javascript'];
+// console.log(books.includes('javascript'))
+
+
+
+
+
+
+
+
+// const array = [];
+// const notArr = 'meena';
+// console.log(Array.isArray(notArr))
+
+
+
+
+
+
+// const nums =[23,65,67];
+// const fruits = ['pepe','anarosh'];
+// let newkk =nums.concat(fruits);
+// console.log(newkk)
+
+
+
+const numq =[12,56,33,65];
+// for(const num of numbers){
+//     console.log(num)
+// }
+
+let num = 1;
+while(num < 10){
+    console.log(num);
+    num++;
 }
-else if(isStudent && age<30){
-    const off = ticket*50/100;
-    const pay = ticket-off;
-    console.log('you student',pay)
-}
-else if(age>=60){
-    const off = ticket*15/100;
-    const pay = ticket-off;
-    console.log('salam',pay)
-}
-else{
-    console.log('provide ',ticket,'taka')
-}
-
-
-
-
-
-
-
 
 
 
