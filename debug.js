@@ -849,11 +849,71 @@ const numq =[12,56,33,65];
 //     console.log(num)
 // }
 
-let num = 1;
-while(num < 10){
-    console.log(num);
-    num++;
-}
+// let num = 1;
+// while(num < 10){
+//     console.log(num);
+//     num++;
+// }
+
+
+// let num = 50;
+// while(num<=100){
+//     console.log(num);
+//     num++;
+// }
+
+// let num =1;
+// let sum =0;
+// while(num <=10){
+
+//     // sum = sum+num;
+//     console.log(num);
+//     if(num %2 ===0){
+//         console.log(num)
+//     }
+//     num ++;
+// }
+
+// let sum = 0;
+// for(let i = 11;i<=20;i++){
+   
+//     sum = sum+i;
+//     console.log(i)
+
+// }
+
+
+// for(let i =10;i>0;i--){
+//     console.log(i)
+// }
+
+// for(let i=20;i>11;i--){
+//     console.log(i)
+// }
+
+
+// let n =10;
+// while(n>0){
+//     console.log(n)
+//     n--;
+// }
+
+
+
+// let countDown = 21;
+
+// const timer = setInterval(()=>{
+//     console.log(countDown);
+//     countDown--;
+
+//     if(countDown<0){
+//         clearInterval(timer)
+//         console.log('complete')
+//     }
+// },1000);
+
+
+
 
 
 
