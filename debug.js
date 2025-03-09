@@ -950,12 +950,12 @@ const numq =[12,56,33,65];
 
 
 
-for(let i =1;i<10;i++){
-    if(i%2===1){
-        continue;
-    }
+// for(let i =1;i<10;i++){
+//     if(i%2===1){
+//         continue;
+//     }
     // console.log(i)
-}
+// }
 
 
 
@@ -977,54 +977,54 @@ for(let i =1;i<10;i++){
 
 
 
-const country = 'Bangladesh';
-const division = 'new zeeland'
+// const country = 'Bangladesh';
+// const division = 'new zeeland'
 
 
 
-const number = 45;
+// const number = 45;
 
 
-function fanOfKor(){
-    console.log('bosa theke uthe darao')
-    console.log('walk towards the switch')
-    console.log('off koro fan')
-}
+// function fanOfKor(){
+//     console.log('bosa theke uthe darao')
+//     console.log('walk towards the switch')
+//     console.log('off koro fan')
+// }
 
 
-function vatKhao(){
-    console.log('hand wash koro')
-    console.log('boso')
-    console.log('khawa suru koro')
-}
+// function vatKhao(){
+//     console.log('hand wash koro')
+//     console.log('boso')
+//     console.log('khawa suru koro')
+// }
 // vatKhao();
 
 
-function square(num){
-console.log(num*num);
-const borgo = num*num;
-console.log(borgo)
+// function square(num){
+// console.log(num*num);
+// const borgo = num*num;
+// console.log(borgo)
 
-}
+// }
 // square(4);
 // square(12)
 
-function addAll(a , b, c, d){
-    const total = a+b+c+d;
-    console.log(total)
-}
-addAll(1,2,3,4);
+// function addAll(a , b, c, d){
+//     const total = a+b+c+d;
+//     console.log(total)
+// }
+// addAll(1,2,3,4);
 
-function doubleIt(num){
-    const doubled = num *2;
-    console.log(num,doubled)
-}
-console.log('i will call the function');
-doubleIt(2);
-console.log('-------------');
-doubleIt(3);
-console.log('-------------');
-doubleIt(4)
+// function doubleIt(num){
+//     const doubled = num *2;
+//     console.log(num,doubled)
+// }
+// console.log('i will call the function');
+// doubleIt(2);
+// console.log('-------------');
+// doubleIt(3);
+// console.log('-------------');
+// doubleIt(4)
 
 
 
@@ -1109,29 +1109,60 @@ doubleIt(4)
 
 
 
-function numberOfElements(number){
-    const len = number.length;
-    return len;
-}
+// function numberOfElements(number){
+//     const len = number.length;
+//     return len;
+// }
 
-numberOfElements([2,3,4,5,6,7,8,9,10]);
+// numberOfElements([2,3,4,5,6,7,8,9,10]);
 
-function getAge(person){
-    const age = person.age;
-    return age;
-}
-
-
+// function getAge(person){
+//     const age = person.age;
+//     return age;
+// }
 
 
-function sumOfNumbers(numbers){
-    for(const number of numbers){
-        console.log(number)
-    }
-}
-const nums = [2,3,4,5,6,7,8,9,10];
-const sum = sumOfNumbers(nums);
-console.log('sum',sum)
+
+
+// function sumOfNumbers(numbers){
+//     for(const number of numbers){
+//         console.log(number)
+//     }
+// }
+// const nums = [2,3,4,5,6,7,8,9,10];
+// const sum = sumOfNumbers(nums);
+// console.log('sum',sum)
+
+
+
+
+
+
+// function sumOfNumbers(numbers){
+//     let sum =0;
+//     for(const number of numbers){
+//         console.log(number);
+//         sum = sum + number;
+       
+//     }
+//     return sum;
+
+
+// }
+// const numbs = [2,3,4];
+// const sum = sumOfNumbers(numbs);
+// console.log(sum)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
