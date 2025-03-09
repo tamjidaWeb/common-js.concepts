@@ -1009,7 +1009,33 @@ console.log(borgo)
 // square(4);
 // square(12)
 
-f
+function addAll(a , b, c, d){
+    const total = a+b+c+d;
+    console.log(total)
+}
+addAll(1,2,3,4);
+
+function doubleIt(num){
+    const doubled = num *2;
+    console.log(num,doubled)
+}
+console.log('i will call the function');
+doubleIt(2);
+console.log('-------------');
+doubleIt(3);
+console.log('-------------');
+doubleIt(4)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
