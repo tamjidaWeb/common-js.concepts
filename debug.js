@@ -1053,5 +1053,95 @@ doubleIt(4)
 
 
 
+// function add (price1,price2){
+//     const total = price1+price2;
+//     return total;
+// }
+
+// const bill = add(5,6);
+
+
+
+
+// function isEven(number){
+//     if(number%2==0){
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// }
+// console.log(isEven(5));
+// console.log(isEven(10));
+
+
+
+
+
+
+// function evenSizedString(str){
+//     const size = str.length;
+//     if(size%2==0){
+//         console.log('even');
+//         return true;
+//     }
+//     else{
+//         console.log('odd')
+//     }
+//     console.log(str,size);
+// }
+// // evenSizedString('hello');
+// // evenSizedString('faka');
+
+// function doubleOrTriple(num,doDouble){
+//     if(doDouble=== true){
+//         const result = num*2;
+//         return result;
+//     }
+//     else{
+//         const result = num*3;
+//         return result;
+//     }
+// }
+// console.log(doubleOrTriple(5,true));
+// console.log(doubleOrTriple(5,false));
+
+
+
+
+function numberOfElements(number){
+    const len = number.length;
+    return len;
+}
+
+numberOfElements([2,3,4,5,6,7,8,9,10]);
+
+function getAge(person){
+    const age = person.age;
+    return age;
+}
+
+
+
+
+function sumOfNumbers(numbers){
+    for(const number of numbers){
+        console.log(number)
+    }
+}
+const nums = [2,3,4,5,6,7,8,9,10];
+const sum = sumOfNumbers(nums);
+console.log('sum',sum)
+
+
+
+
+
+
+
+
+
+
+
 
 
