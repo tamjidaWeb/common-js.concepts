@@ -1029,11 +1029,26 @@ doubleIt(4)
 
 
 
+// function difference (a,b){
+//     const diff = a-b;
+//     console.log(diff)
+// }
+// const fatherAge = 40;
+// const daughterAge=15;
+// difference(fatherAge,daughterAge)
 
 
+// function tenTimes (number){
+//     const result= number*10;
+//     return result;
+// }
 
-
-
+// function cutHalf(num){
+//     const half=num/2;
+//     return half;
+// }
+// const result = tenTimes(5);
+// console.log(result)
 
 
 
