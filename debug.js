@@ -929,6 +929,88 @@ const numq =[12,56,33,65];
 // }
 
 
+// for(let i =0;i<15;i++){
+//     console.log(i);
+//     if(i>=10){
+//         break;
+//     }
+// }
+// console.log('breakup')
+
+// let n=54;
+// while(n>25){
+//     console.log(n);
+//     if(n<=50){
+//         break;
+//     }
+//     n--;
+// }
+
+
+
+
+
+for(let i =1;i<10;i++){
+    if(i%2===1){
+        continue;
+    }
+    // console.log(i)
+}
+
+
+
+
+
+
+
+
+// let  n =0;
+// while(n<50){
+//     n++;
+//     if(n%5 !==0){
+//         continue;
+//     }
+//     console.log(n);
+  
+// }
+
+
+
+
+const country = 'Bangladesh';
+const division = 'new zeeland'
+
+
+
+const number = 45;
+
+
+function fanOfKor(){
+    console.log('bosa theke uthe darao')
+    console.log('walk towards the switch')
+    console.log('off koro fan')
+}
+
+
+function vatKhao(){
+    console.log('hand wash koro')
+    console.log('boso')
+    console.log('khawa suru koro')
+}
+// vatKhao();
+
+
+function square(num){
+console.log(num*num);
+const borgo = num*num;
+console.log(borgo)
+
+}
+// square(4);
+// square(12)
+
+f
+
 
 
 
