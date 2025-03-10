@@ -273,7 +273,7 @@
 // console.log(word.length);
 
 
-const school = 'Raj uk school';
+// const school = 'Raj uk school';
 // console.log(school);
 // const subject = 'Chemistry';
 // const book= 'chemistry';
@@ -415,18 +415,18 @@ const school = 'Raj uk school';
 
 
 
-const college = {
-    name: 'VNC',
-    class: ['9','10','11','12'],
-    events:['vijay dibos','sadjinota dibos'],
-    unique:{
-        color:'blue',
-        result:{
-            gpa:5,
-            merit:'top'
-        }
-    }
-}
+// const college = {
+//     name: 'VNC',
+//     class: ['9','10','11','12'],
+//     events:['vijay dibos','sadjinota dibos'],
+//     unique:{
+//         color:'blue',
+//         result:{
+//             gpa:5,
+//             merit:'top'
+//         }
+//     }
+// }
 // college.unique.result = 'top most'
 // console.log(college.unique.result);
 // college.events = '16 dec';
@@ -434,12 +434,12 @@ const college = {
 // delete college;
 // console.log(college);
 
-const mobile = {
-    brand: 'samsung',
-    price:23999,
-    color: 'black',
-    camera:'12mpx',
-}
+// const mobile = {
+//     brand: 'samsung',
+//     price:23999,
+//     color: 'black',
+//     camera:'12mpx',
+// }
 
 
 //for of: array
@@ -467,11 +467,11 @@ const mobile = {
 // console.log(rubber);
 
 
-const colors={
-    red:'#fff45',
-    blue:'#hh5',
-    "golden rod" :'#gjjj98',
-}
+// const colors={
+//     red:'#fff45',
+//     blue:'#hh5',
+//     "golden rod" :'#gjjj98',
+// }
 
 // console.log(colors["golden rod"]);
 
@@ -844,7 +844,7 @@ const colors={
 
 
 
-const numq =[12,56,33,65];
+// const numq =[12,56,33,65];
 // for(const num of numbers){
 //     console.log(num)
 // }
@@ -1208,6 +1208,49 @@ const numq =[12,56,33,65];
 
 // console.log(findEven([1, 3, 5, 8, 10]))
 
+
+
+// function doubleNumbers(numbers) {
+//     return numbers.map(num => num * 2);
+// }
+
+// console.log(doubleNumbers([2, 4, 6])); // Output: undefined
+
+
+
+
+
+
+// function riskyOperation() {
+//     try {
+//         throw new Error("Something went wrong");
+//         return "Success"; // This return is unreachable
+//     } catch (error) {
+//         console.log(error.message);
+//     }
+// }
+
+// console.log(riskyOperation()); // Output: Something went wrong \n undefined
+
+//12 inch 1 feet
+
+
+// function inchToFeet(inch){
+//     const feet = inch/12;
+//     return feet;
+// }
+// //75
+// function inchToFeet(inch){
+//     const feetFraction = inch/12;
+//     const feetNumber = parseInt(feetFraction);
+//     const inchRemaining=inch%12;
+//     const result = feetNumber + 'ft ' + inchRemaining + 'inch';
+//     return result;
+// }
+// const shivoHeight = inchToFeet(75);
+// console.log(shivoHeight)
+// const shuvoHeight = inchToFeet(76);
+// console.log(shuvoHeight)
 
 
 
