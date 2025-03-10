@@ -1176,6 +1176,46 @@ const numq =[12,56,33,65];
 
 
 
+// function sayHello() {
+//     return "Hello!"; // No return value
+// }
+
+// let message = sayHello();
+// console.log(message);
+
+
+// function getCoordinates() {
+//     let x = 5;
+//     let y = 10;
+//     return {x,y}; // Only returns x, y is lost
+// }
+
+// console.log(getCoordinates());
+
+
+
+// function findEven(numbers) {
+//     numbers.forEach(num => {
+//         if (num % 2 === 0) {
+//             // This return only exits the forEach callback, not the main function
+//             return num;
+//         }
+       
+//     });
+//     return numbers;
+   
+// }
+
+// console.log(findEven([1, 3, 5, 8, 10]))
+
+
+
+
+
+
+
+
+
 
 
 
