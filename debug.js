@@ -1367,11 +1367,34 @@
 
 
 
-function sumOfNumbers(numbers){
-    console.log(numbers)
-}
-const sum = sumOfNumbers();
-console.log(sum)
+// function sumOfNumbers(numbers){
+//     let sum = 0;
+//     for(const number of numbers){
+//         sum = sum+number;
+// }
+// return sum;
+// }
+// const nums = [2,3,4,5,1];
+// const sum = sumOfNumbers(nums);
+// console.log(sum)
+
+
+
+// function evenNumbers(number){
+
+//         if(number%2===1){
+            
+//             return number*2;;
+//         }
+//         else if(number%2===0){
+//            return number/2;
+//         }
+//     }
+
+  
+
+// console.log(evenNumbers(3));
+// console.log(evenNumbers(4));
 
 
 
@@ -1379,6 +1402,13 @@ console.log(sum)
 
 
 
+
+// function fourPara(para1,para2,para3,para4){
+//     const mult= para1* para2*para3*para4;
+//     return mult;
+// }
+// const multiply = fourPara(2,3,1,2);
+// console.log(multiply);
 
 
 
