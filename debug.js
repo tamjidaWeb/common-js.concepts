@@ -1410,5 +1410,61 @@
 // const multiply = fourPara(2,3,1,2);
 // console.log(multiply);
 
+// function  make_avg(numbers){
+//     let sum =0;
+//     let length = numbers.length;
+//     for(const number of numbers){
+
+//         sum = sum +number;
+      
+      
+//     }
+//     const avg = sum/length;
+//     return avg;
+   
+// }
+// const num = [2,3,4,5,6,7,8,9,10];
+// const newValue=make_avg(num);
+// console.log(newValue);
+
+
+
+
+
+
+// function count_zero(numbers){
+//     let count =0;
+//     for(const items of numbers){
+//         if(items === '0'){
+//             count++;
+//         }
+      
+//     }
+//     return count;
+// }
+// console.log(count_zero('101111111'));
+
+function count_zero(numbers){
+    let count =0;
+    for(const number of numbers){
+        if(number==='1')
+        count++;
+    }
+    return count;
+
+}
+console.log(count_zero('1010'));
+
+
+
+
+
+
+
+
+
+
+
+
 
 
