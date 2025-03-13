@@ -1444,20 +1444,46 @@
 // }
 // console.log(count_zero('101111111'));
 
-function count_zero(numbers){
-    let count =0;
+// function count_zero(numbers){
+//     let count =0;
+//     for(const number of numbers){
+//         if(number==='1')
+//         count++;
+//     }
+//     return count;
+
+// }
+// console.log(count_zero('1010'));
+
+
+
+// function odd_even(number){
+//         if(number%2===0){
+//             return 'even';
+//         }
+//     }
+
+// const oddEven = odd_even(2);
+// console.log(oddEven)
+
+
+
+
+function odd_avg(numbers){
     for(const number of numbers){
-        if(number==='1')
-        count++;
+        console.log(number)
+        // if(number%2===0){
+        //    console.log(number)
+        // }
+      
     }
-    return count;
+    return number;
+   
 
 }
-console.log(count_zero('1010'));
-
-
-
-
+const numbers = [2,3,4,5,6,7,8,9,10];
+const avg=odd_avg(numbers);
+console.log(avg)
 
 
 
