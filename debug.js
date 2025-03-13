@@ -1255,12 +1255,123 @@
 
 
 
+// function milesToKiloMeter(mile){
+//     const kilo = mile * 1.60934;
+//     return kilo;
+// }
+// const bazar = milesToKiloMeter(5);
+// console.log(bazar);
+
+// function inchToFeet2(inch){
+//     const feet = inch/12;
+//     const feetInt = parseInt(feet);
+//     const feetModu = inch%12;
+//     const result = feetInt + 'fit ' + feetModu + 'inch'
+//     return result;
+// }
+// const jyotiFeet = inchToFeet2(52.4);
+// console.log(jyotiFeet)
+
+
+// function leapYear(year){
+//     if(year %4 === 0 && year%100 !==0){
+//         return true;
+//     }
+//     else if(year %100 ===0 && year % 400 ===0){
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// }
+// const yearIs1 = leapYear(1900);
+// const yearIs2 = leapYear(2100);
+// const yearIs3 = leapYear(2400);
+// const yearIs4 = leapYear(2052);
+// console.log(yearIs1, yearIs2,yearIs3,yearIs4)
 
 
 
 
 
 
+
+// function oddAvg(numbers){
+//     const odd = [];
+//     for(const number of numbers){
+//         if(number%2===1){
+//             odd.push(number);
+//             // console.log(number)
+//         }
+//     }
+//     let sum =0;
+//    for(const number of odd){
+//     sum = sum+ number;
+//    }
+//    const count = odd.length;
+//    const avg = sum/count;
+//    return {sum,count};
+// }
+
+// const numbers = [3,5,7,4,8,2,9];
+// const avg = oddAvg(numbers);
+// console.log(avg);
+
+
+
+
+
+
+// const biriyanikhor = ['abul','sabul','babul','kabul','sabul'];
+
+// const numbers = [1,2,3,65,7,43,77,3,65];
+
+
+// function noDuplicate(array){
+//     const unique = [];
+//     for(const item of array){
+//       if(unique.includes(item)===false){
+//         unique.push(item);
+//       }
+//     }
+//    return unique;
+  
+// }
+// const uniqueArray = noDuplicate(biriyanikhor);
+// console.log(uniqueArray)
+
+
+
+
+
+
+
+
+// function dubplicateNumbers(numbers){
+//     const newArr=[];
+//     for(const items of numbers){
+//         if(newArr.includes(items)===false){
+//             newArr.push(items);
+//         }
+//     }
+//     const count = newArr.length;
+//     const avg = 
+//     return {newArr,count};
+    
+
+// }
+// const number=[3,4,5,3,5,7,9,9,10,2];
+// const result = dubplicateNumbers(number);
+// console.log(result);
+
+
+
+
+function sumOfNumbers(numbers){
+    console.log(numbers)
+}
+const sum = sumOfNumbers();
+console.log(sum)
 
 
 
