@@ -1509,22 +1509,133 @@
 
 
 
-function isLeapYear(year){
-    if(year%4===0 && year%100!==0){
-        return true;
-    }
-    else if(year%100===0 && year % 400===0){
-        return true;
+// function isLeapYear(year){
+//     if(year%4===0 && year%100!==0){
+//         return true;
+//     }
+//     else if(year%100===0 && year % 400===0){
+//         return true;
 
-    }
-    return false;
-}
+//     }
+//     return false;
+// }
 
-const isLeap = isLeapYear(1900);
-const isLeap1 = isLeapYear(2400);
-const isLeap2 = isLeapYear(2100);
-const isLeap3 = isLeapYear(2052);
-console.log(isLeap, isLeap1,isLeap2,isLeap3)
+// const isLeap = isLeapYear(1900);
+// const isLeap1 = isLeapYear(2400);
+// const isLeap2 = isLeapYear(2100);
+// const isLeap3 = isLeapYear(2052);
+// console.log(isLeap, isLeap1,isLeap2,isLeap3)
+
+
+
+
+
+// function oddAverage(numbers){
+//     let fakaset =[];
+//     for(const number of numbers){
+//         if(number%2===1){
+//             // console.log(number);
+//             fakaset.push(number);
+//         }
+     
+       
+//     }
+// let sum =0;
+// for(const number of fakaset){
+//     sum =sum+number;
+  
+// }
+// console.log('sum',sum)
+//     console.log(fakaset);
+//     const count = sum/fakaset.length;
+//     return count;
+//     // return fakaset;
+   
+// }
+// const numbers= [2,3,4,5,7,9];
+// const avg = oddAverage(numbers);
+// console.log(avg);
+
+
+
+
+// function oddAverage(numbers){
+//     let newOdds=[];
+//     for(const number of numbers){
+//         if(number%2===1){
+//             newOdds.push(number);
+           
+//         }
+       
+//     }
+//     console.log(newOdds);
+//     let sum =0;
+//     for(number of newOdds){
+//         sum = sum+number;
+      
+//     }
+//     const length = newOdds.length;
+//     const avg= sum/length;
+//     return avg;
+
+// }
+// const numbers=[2,3,4,5,6,7,8,9];
+// const average= oddAverage(numbers);
+//     console.log(average);
+
+
+// function noDuplicate(arr){
+//     const newArr=[];
+//   for(const ar of arr){
+//     if(newArr.includes(ar)===false){
+//         newArr.push(ar);
+       
+//     }
+   
+//   }
+//   return newArr;
+ 
+// }
+
+
+// const biryaniKhor = ['abul','babul','kabul','sabul','babul','abul'];
+// const number=[2,3,4,5,6,7,8,8,2];
+// const uniqueArr= noDuplicate(biryaniKhor);
+// console.log(uniqueArr)
+
+
+
+// function includes(arr){
+//     const newArr=[];
+//     for(const ar of arr){
+//         if(newArr.includes(ar)===false){
+//         newArr.push(ar);
+      
+//         }
+       
+//     }
+//     return newArr;
+// }
+// const array = ['abul','babul','kabul','sabul','babul','abul'];
+// const arrayResult = includes(array);
+// console.log(arrayResult);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
