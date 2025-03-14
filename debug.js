@@ -1625,9 +1625,57 @@
 
 
 
+// const min = Math.min
+
+// const min = Math.min(3,2,6,1);
+// const max = Math.max(2,5,7,8);
+// console.log(max)
+
+// console.log(Math.PI)
+// console.log(Math.abs(-6+2));
+
+
+// console.log(Math.round(4.5))
+// console.log(object)
 
 
 
+// const rand =Math.round(Math.random()*10);
+// console.log(rand)
+
+
+
+
+// const today = new Date();
+// // console.log(today);
+
+// const date = new Date('2062-10-09');
+// console.log(date.getMonth())
+
+
+// const specificDate = new Date(2091,0,26)
+// console.log(specificDate);
+// specificDate.setMonth(2);
+// console.log(specificDate.toLocaleString('en-GB'))
+
+//unix epoch
+
+
+
+
+
+
+
+// let a = 5;
+// let b=10;
+// let temp=a;
+// a=b;
+// b=temp;
+
+let x =5;
+let y=6;
+[x,y]=[y,x];
+console.log(x,y)
 
 
 
