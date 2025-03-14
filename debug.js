@@ -1469,21 +1469,67 @@
 
 
 
-function odd_avg(numbers){
-    for(const number of numbers){
-        console.log(number)
-        // if(number%2===0){
-        //    console.log(number)
-        // }
+// function odd_avg(numbers){
+//     for(const number of numbers){
+//         console.log(number)
+//         // if(number%2===0){
+//         //    console.log(number)
+//         // }
       
-    }
-    return number;
+//     }
+//     return number;
    
 
+// }
+// const numbers = [2,3,4,5,6,7,8,9,10];
+// const avg=odd_avg(numbers);
+// console.log(avg)
+
+
+// function leapYear(year){
+//     if(year%4===0 &&year !==100){
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// }
+// const isLeap = leapYear(1900);
+// console.log(isLeap);
+
+
+
+
+
+
+
+
+
+
+
+
+
+function isLeapYear(year){
+    if(year%4===0 && year%100!==0){
+        return true;
+    }
+    else if(year%100===0 && year % 400===0){
+        return true;
+
+    }
+    return false;
 }
-const numbers = [2,3,4,5,6,7,8,9,10];
-const avg=odd_avg(numbers);
-console.log(avg)
+
+const isLeap = isLeapYear(1900);
+const isLeap1 = isLeapYear(2400);
+const isLeap2 = isLeapYear(2100);
+const isLeap3 = isLeapYear(2052);
+console.log(isLeap, isLeap1,isLeap2,isLeap3)
+
+
+
+
+
 
 
 
