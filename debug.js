@@ -1672,10 +1672,50 @@
 // a=b;
 // b=temp;
 
-let x =5;
-let y=6;
-[x,y]=[y,x];
-console.log(x,y)
+// let x =5;
+// let y=6;
+// [x,y]=[y,x];
+// console.log(x,y)
+
+// function celToFahren(celcius){
+//     const f = celcius * (9/5)+32;
+//     return f;
+
+// }
+// const result=celToFahren(45);
+// console.log(result)
+
+
+
+
+
+// function howManyTimes(number,target){
+//     let count =0;
+//     for(const num of number){
+//         if(num===target){
+//             count ++;
+//         }
+//     }
+//     return count;
+// }
+
+// console.log(howManyTimes([5,3,54,5,4,5,76,15],5))
+// console.log(howManyTimes([5,3,54,5,4,5,76,15],25))
+
+
+
+
+// function howManyTimes(number ,target){
+//     let count =0;
+//     for(const num of number){
+//         if(num===target){
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+// console.log(howManyTimes([2,3,2,4,5,2,2,4,2,8],2))
+// console.log(howManyTimes([2,3,2,4,5,2,2,4,2,8],8))
 
 
 
@@ -1683,8 +1723,38 @@ console.log(x,y)
 
 
 
+// function vowel(str){
+//     let count =0;
+//     for(const letter of str){
+//         if(letter ==='a' || letter ==='e' || letter ==='i' || letter ==='o' ||letter ==='u'){
+//             count ++;
+//         }
+
+//     }
+//     return count;
+
+// }
+// const result = vowel('hellouuuuuuuu');
+// console.log(result)
 
 
+
+
+
+function randomNumber(number){
+    let count =0;
+    for(const num of number){
+       const ran1= Math.round(Math.random()*20);
+       const ran2 = Math.round(Math.random()*30);
+       if(num>ran1 && ran2<num){
+        count ++;
+       }
+    }
+    return count;
+}
+const num = [2,23,4,5,6,7,28,9,10];
+const result = randomNumber(num);
+console.log(result);
 
 
 
