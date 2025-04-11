@@ -1741,20 +1741,140 @@
 
 
 
-function randomNumber(number){
-    let count =0;
-    for(const num of number){
-       const ran1= Math.round(Math.random()*20);
-       const ran2 = Math.round(Math.random()*30);
-       if(num>ran1 && ran2<num){
-        count ++;
-       }
-    }
-    return count;
-}
-const num = [2,23,4,5,6,7,28,9,10];
-const result = randomNumber(num);
-console.log(result);
+// function randomNumber(number){
+//     let count =0;
+//     for(const num of number){
+//        const ran1= Math.round(Math.random()*20);
+//        const ran2 = Math.round(Math.random()*30);
+//        if(num>ran1 && ran2<num){
+//         count ++;
+//        }
+//     }
+//     return count;
+// }
+// const num = [2,23,4,5,6,7,28,9,10];
+// const result = randomNumber(num);
+// console.log(result);
+
+
+
+
+
+
+
+
+
+
+// function arrayOfNumber(numbers,target){
+//     let count =0;
+//     for(const number of numbers){
+//         if(target==number){
+//             count++;
+//         }
+//     }
+//     return count;
+
+// }
+// const result = arrayOfNumber([2,3,4,55,5,5,5,7],5);
+// console.log(result)
+
+
+
+
+// function vowels(v){
+//     let count=0;
+//     for(const letter of v){
+//         if(letter === 'o' || letter === 'e'){
+//          count ++;
+//         }
+       
+//     }
+//     return count;
+// }
+// console.log(vowels('hello'))
+
+
+
+
+// function randomNumber(number){
+//     let num1 = Math.round(Math.random()*20);
+//     let num2 = Math.round(Math.random()*30);
+
+
+// }
+
+
+
+// function inchToFeet(inch){
+//     const feet = inch/12;
+//     const feetNumber = parseInt(feet);
+//     const inchRemaining = inch%12;
+//     const result = feetNumber + 'ft' + inchRemaining + 'inch';
+
+//     return result;
+// }
+
+// // function inchToFeet(inch){
+
+// // }
+// const myHeight = inchToFeet(75);
+// console.log(myHeight)
+
+
+// function mileToKilometer(mile){
+//     const kilo = mile * 1.60934;
+//     return kilo;
+// }
+// const basa = mileToKilometer(10);
+// console.log(basa);
+
+
+// const today = new Date();
+// console.log(today);
+// const date = new Date('2023-10-09');
+// console.log(date.getMonth())
+// console.log(date.getDay());
+
+// const specificDate = new Date(2071, 2, 17);
+// console.log(specificDate);
+// specificDate.setMonth(9);
+// console.log(specificDate);
+// console.log(specificDate.toLocaleString('en-GB'));
+
+//unix epoch
+
+
+// let a = 5;
+// let b = 6;
+
+// a=b;
+// b=a;
+
+// const temp = a;
+// a=b;
+// b= temp;
+// console.log(a,b)
+
+
+
+// let x = 5;
+// let y =7;
+// [x,y]=[y,x];
+// console.log(x,y)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
