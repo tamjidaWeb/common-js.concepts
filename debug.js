@@ -1956,39 +1956,103 @@
 
 
 
-const prices = [20000,16000,23000,120000,15000,30000];
-function getMin(numbers){
-    let min = numbers[0];
-    for(const num of numbers){
-        if(num <min){
-            min = num;
-        }
+// const prices = [20000,16000,23000,120000,15000,30000];
+// function getMin(numbers){
+//     let max = numbers[0];
+//     for(const num of numbers){
+//         if(num >max){
+//             max = num;
+//         }
+//     }
+//     return max;
+// }
+
+// const expensive = getMin(prices);
+// console.log(expensive)
+
+
+
+
+// const prices = [20000,16000,23000,120000,15000,30000];
+// function getMin(numbers){
+//     let min = numbers[0];
+//     for(const num of numbers){
+//         if(num <min){
+//             min = num;
+//         }
+//     }
+//     return min;
+// }
+
+// const cheap = getMin(prices);
+// console.log(cheap)
+
+
+
+// const phones = [
+//     {name: 'samsung', price: 23000,camera: '12mp', color: 'black' },
+//     {name: 'nokia', price:1200, camera:'2mp', color: 'blue'},
+//     {name: 'walton', price:13000, camera:'5mp', color: 'nevy blue'},
+//     {name: 'Xiaomi', price:12000, camera:'13mp', color: 'purple'},
+//     {name: 'iphone', price:120000, camera:'8mp', color: 'blue'},
+
+// ]
+
+
+// function cheapestPhone(phones){
+//     let min = phones[0];
+//     for(const phone of phones){
+//         if(phone.price<min.price){
+//             min = phone;
+//         }
+//     }
+//     return min;
+// }
+
+// const cheap = cheapestPhone(phones);
+// console.log(cheap)
+
+
+
+// const products = [
+//     {name:'shampoo', price :945},
+//     {name:'shirt', price :1500},
+//     {name:'pant', price :900},
+//     {name:'perfume', price :3000},
+// ]
+
+
+// function getShoppingTotal(products){
+//     let sum =0;
+//     for(const product of products){
+//         sum = sum+ product.price;
+//     }
+//     return sum;
+// }
+// const total = getShoppingTotal(products);
+// console.log('total ajke khosabe',total);
+
+
+
+
+const products = [
+    { name:'shampoo', price :945, quantity:5},
+    { name:'shirt', price :1500, quantity:3},
+    { name:'pant', price :900, quantity:2},
+    { name:'perfume', price :3000, quantity:1},
+]
+function cartTotal(products){
+    let sum =0;
+    for(const product of products){
+        const priceAndQuantity = product.price * product.quantity;
+        sum = sum + priceAndQuantity;
     }
-    return min;
+    return sum;
 }
 
-const cheap = getMin(prices);
-console.log(cheap)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+const total = cartTotal(products);
+console.log(total);
 
 
 
