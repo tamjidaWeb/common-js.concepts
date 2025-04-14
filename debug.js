@@ -1863,6 +1863,117 @@
 // console.log(x,y)
 
 
+// const dulkar = 45;
+// const shuvo = 25;
+
+
+// if(dulkar>shuvo){
+//     console.log('disha will get the strawberry')
+// }
+
+
+// function getMax(a,b){
+//     if(a>b){
+//         return a;
+//     }
+//     else{
+//         return b;
+//     }
+// }
+// const max = getMax(5,6);
+// const max2= getMax(23,12)
+// const ultimateMax=getMax(max,max2);
+// console.log(ultimateMax)
+
+
+
+
+
+
+// const jim = 45;
+// const kim=82;
+// const pim = 12;
+
+
+// if(jim>kim && jim>pim){
+//     console.log('jim is the ultimate boss');
+// }
+
+// else if(kim>jim && kim>pim){
+//     console.log('kim is bigger than jim and pim')
+// }
+
+// else{
+//     console.log('pim is the biggest')
+// }
+
+
+
+
+// function maxOfThree(num1,num2,num3){
+//     if(num1>num2 && num1>num3){
+//         return num1;
+//     }
+// }
+
+// const max = maxOfThree(93,45,67);
+// console.log(max)
+
+
+//max num egulo kivabe kaj korche
+// const heights = [45,65,32,87,67];
+// function getMax(numbers){
+//     let max = numbers[0];
+//     for(const num of numbers){
+//         // let max = num;
+//         if(num>max){
+//             max = num;
+//         }
+//     }
+// }
+// const max = getMax(heights);
+// console.log(max);
+
+
+// function woodQuantity(chairQuantity,tableQuantity,bedQuantity){
+//     const perChairWood = 3;
+//     const perTableWood = 10;
+//     const perBedWood =50;
+
+
+//     const allChairWood = perChairWood * chairQuantity;
+//     const allTableWood = perTableWood * tableQuantity;
+//     const allBedWood = perBedWood * bedQuantity;
+
+//     const totalWood = allChairWood+ allTableWood + allBedWood;
+//     return totalWood;
+// }
+
+
+// const totalWood = woodQuantity(5,6,4);
+// console.log(totalWood);
+
+
+
+
+const prices = [20000,16000,23000,120000,15000,30000];
+function getMin(numbers){
+    let min = numbers[0];
+    for(const num of numbers){
+        if(num <min){
+            min = num;
+        }
+    }
+    return min;
+}
+
+const cheap = getMin(prices);
+console.log(cheap)
+
+
+
+
+
 
 
 
