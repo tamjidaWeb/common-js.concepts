@@ -2035,29 +2035,46 @@
 
 
 
-const products = [
-    { name:'shampoo', price :945, quantity:5},
-    { name:'shirt', price :1500, quantity:3},
-    { name:'pant', price :900, quantity:2},
-    { name:'perfume', price :3000, quantity:1},
-]
-function cartTotal(products){
-    let sum =0;
-    for(const product of products){
-        const priceAndQuantity = product.price * product.quantity;
-        sum = sum + priceAndQuantity;
+// const products = [
+//     { name:'shampoo', price :945, quantity:5},
+//     { name:'shirt', price :1500, quantity:3},
+//     { name:'pant', price :900, quantity:2},
+//     { name:'perfume', price :3000, quantity:1},
+// ]
+// function cartTotal(products){
+//     let sum =0;
+//     for(const product of products){
+//         const priceAndQuantity = product.price * product.quantity;
+//         sum = sum + priceAndQuantity;
+//     }
+//     return sum;
+// }
+
+
+// const total = cartTotal(products);
+// console.log(total);
+
+
+
+
+function discountedPrice(quantity){
+    if(quantity <=100){
+        const total = quantity *100;
+        return total;
     }
-    return sum;
+
+    else if(quantity >100 && quantity <=200){
+        const total = quantity * 90;
+        return total;
+    }
+    else{
+        const total = quantity *70;
+        return total;
+    }
 }
 
-
-const total = cartTotal(products);
-console.log(total);
-
-
-
-
-
+const quantityPrice = discountedPrice(150);
+console.log(quantityPrice);
 
 
 
