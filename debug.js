@@ -2082,43 +2082,66 @@
 
 
 
-function layeredDiscountedTotal(quantity){
-    const first100Price = 100;
-    const second100Price = 90;
-    const above200Price = 70;
+// function layeredDiscountedTotal(quantity){
+//     const first100Price = 100;
+//     const second100Price = 90;
+//     const above200Price = 70;
 
-    if(quantity <=100){
-        const total = first100Price * quantity;
-        return total;
-    }
-    else if(quantity>100 && quantity<=200){
+//     if(quantity <=100){
+//         const total = first100Price * quantity;
+//         return total;
+//     }
+//     else if(quantity>100 && quantity<=200){
 
-        const first100Total = 100 * first100Price;
-        const second100Total = quantity - 100;
-        const remainingTotal =  second100Total * 90;
-        const total = first100Total + remainingTotal;
-        return total;
+//         const first100Total = 100 * first100Price;
+//         const second100Total = quantity - 100;
+//         const remainingTotal =  second100Total * 90;
+//         const total = first100Total + remainingTotal;
+//         return total;
 
-    }
+//     }
 
 
-    else{
-        const first100 = 100 * first100Price;
-        const second200 = 100 * second100Price;
-        const above200 = quantity -200;
-        const above200Remaining = above200 * above200Price;
-        const total = first100 + second200 + above200Remaining;
-        return total;
+//     else{
+//         const first100 = 100 * first100Price;
+//         const second200 = 100 * second100Price;
+//         const above200 = quantity -200;
+//         const above200Remaining = above200 * above200Price;
+//         const total = first100 + second200 + above200Remaining;
+//         return total;
        
 
+//     }
+
+
+// }
+
+// const total = layeredDiscountedTotal(2001);
+// console.log(total)
+
+
+
+
+
+
+
+// function add(num1,num2){
+//     return num1+num2;
+// }
+
+// function substruct(num1,num2){
+//     return num1 - num2;
+// }
+
+// function multiply(num1,num2){
+//     return num1+num2;
+// }
+
+
+
+
+function calculator(a , b , operation){
+    if(operation === ' add'){
+        return add(a,b);
     }
-
-
 }
-
-const total = layeredDiscountedTotal(2001);
-console.log(total)
-
-
-
-
