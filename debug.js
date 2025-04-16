@@ -2164,17 +2164,44 @@
 
 
 
-function multiply(num1, num2){
-    
+// function multiply(num1, num2){
+//     if(typeof num1 !== 'number'){
+//         return 'please provide a number';
+//     }
+//     else if(num1 <=num2){
+//         return 'num1 should be greater than num2';
+//     }
+// }
+// const mult = multiply(2,3);
+// console.log(mult);
+
+
+
+// function fullName(first,second){
+//     if(typeof first !== 'string'){
+//         return 'please provide a string';
+//     }
+//     else if(typeof first === 'string'){
+//         return 'oh yea its a string';
+//     }
+// }
+
+// const names = fullName('first','second');
+// console.log(names);
+
+
+
+
+function getPrice(){
+    const price = product.price;
+    return price;
 }
-
-
-
-
-
-
-
-
+const price =getPrice({name:'shirt',price:890},
+                    {name:'pant', price:900},
+                    {name:'perfume', price:3000},
+                    {name:'belt',price:1500},
+                    {name:'wallet',price:1200},
+)
 
 
 
