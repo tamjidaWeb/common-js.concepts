@@ -2192,16 +2192,166 @@
 
 
 
-function getPrice(){
-    const price = product.price;
-    return price;
+// function getPrice(product){
+//     console.log(typeof product);
+//     if(typeof product !== 'object'){
+//         return 'please provide a object';
+//     }
+//     const price = product.price;
+//     return price;
+// }
+// const price =getPrice({name:'shirt',price:890},
+                   
+// )
+// // console.log(price)
+// const total = getPrice(5);
+// console.log(total)
+
+
+
+
+// function getSecond(number){
+//     if(Array.isArray(number)=== false){
+//         return 'please provide an array';
+//     }
+//     const second = number[1];
+//     return second;
+// }
+
+// const second = getSecond('hi');
+// console.log(second)
+
+
+
+
+
+
+
+
+
+// const numbers = [10,3,4,5,6,7,8,9,10,0,-10];
+// function getLowest(numbers){
+//     let min = numbers[0]
+//     for(const number of numbers){
+//         if(number <min){
+//             min = number;
+//         }
+
+//     }
+//     return min;
+// }
+
+// const mini = getLowest(numbers);
+// console.log(mini)
+
+
+
+
+
+// const name = ['abu','ba','k','sabulin'];
+
+// function smallestName(names){
+//     let min = names[0];
+//     for(const name of names){
+//         if(name.length <min.length){
+//             min = name;
+//         }
+//     }
+//     return min;
+// }
+
+// const namess = smallestName(name);
+// console.log(namess)
+
+
+
+
+
+const nayok = {
+    name: 'abul',
+    id:12,
+    address:'movie cinema',
+    isSingle:true,
+    friends:['apu,raj,anupam'],
+    movies:[{name:'no1',year:2023},{name:'badsha',year:2024}],
+    act:function(){
+        console.log('acting like sakib khan')
+    },
+    car:{
+        brand:'tesla',
+        price:2500000,
+        made:2025,
+        manufacturer:{
+            name:'tesla',
+            country:'usa',
+        }
+    }
 }
-const price =getPrice({name:'shirt',price:890},
-                    {name:'pant', price:900},
-                    {name:'perfume', price:3000},
-                    {name:'belt',price:1500},
-                    {name:'wallet',price:1200},
-)
+// console.log(nayok.act);
+// nayok.act()
+
+
+
+// const products = [
+//     {name:'phone', price: 20000, brand:'nokia', color:'black'},
+//     {name:'laptop', price: 50000, brand:'dell', color:'silver'},
+// ]
+
+// products[0];
+// products[1];
+
+
+// const products = {
+//     '0': 15,
+//     '1':72,
+//     '2':86
+// }
+
+
+
+// function add(num1,num2){
+//     // console.log(num1,num2);
+//     console.log(arguments[5]);
+// }
+
+// add(2,3,4,5,6,7,8,9);
+
+
+
+
+
+const numbers=[23,67,34,54,11,89];
+// for(let i=0;i<numbers.length;i++){
+//     const number = numbers[i];
+//     console.log(number)
+// }
+// for(const number of numbers){
+//     console.log(number)
+// }
+
+const products = [
+    {id:1 ,name:'phone', price: 20000, brand:'nokia', color:'black'},
+    {id: 2,name:'laptop', price: 50000, brand:'dell', color:'silver'},
+    {id: 3,name:'lenevo', price: 20000, brand:'nokia', color:'black'},
+    {id: 4,name:'hp', price: 50000, brand:'dell', color:'silver'},
+    {id: 5,name:'Phone', price: 20000, brand:'nokia', color:'black'},
+    {id: 6,name:'dell LaptOp', price: 50000, brand:'dell', color:'silver'},
+]
+function matchProducts(products,search){
+const matched = [];
+for(const product of products){
+    if(product.brand.includes(search)){
+        matched.push(product);
+    }
+}
+return matched;
+}
+
+const result = matchProducts(products,'nokia');
+console.log(result);
+
+
+
 
 
 
