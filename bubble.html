@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
+    <!-- <style>
         body{
             border: 2px solid salmon;
             margin: 4px;
@@ -21,34 +21,31 @@
             border: 2px solid blue;
             margin: 4px;
         }
-    </style>
+    </style> -->
 </head>
 <body>
     <h1>Explore Event Bubble</h1>
 
-    <section>
-        <h3>List of things</h3>
-        <ol id="item-list">
-            <li id="item-1">Lorem, ipsum.</li>
-            <li id="item-2">Ab, laboriosam.</li>
-            <li id="item-3">Labore, excepturi!</li>
-            <li id="item-4">Doloremque, itaque.</li>
-            <li id="item-5">Nobis, ex?</li>
-            <li id="item-6">Minima, molestias?</li>
-        </ol>
-    </section>
+<h1>Explore the comcept of events delegate</h1>
+<ol>
+    <li class="item">my awesome item-1</li>
+    <li class="item">my awesome item-2</li>
+    <li class="item">my awesome item-3</li>
+    <li class="item">my awesome item-4</li>
+    <li class="item">my awesome item-5</li>
+    <li class="item">my awesome item-6</li>
+</ol>
 
 
     <script>
-        //list item 2 click handler
-        document.getElementById('item-2').addEventListener('click',function(event){
-            console.log('item 2 clicked');
-            event.stopPropagation();
+      const items = document.getElementsByClassName('item');
+      for(const item of items){
+        item.addEventListener('click',function(event){
+            // console.log(event.target.parentNode)
+
+            event.target.parentNode.removeChild(event)
         })
-        //ol click handler
-        document.getElementById('item-list').addEventListener('click',function(){
-            console.log('ol clicked')
-        })
+      }
     </script>
 </body>
 </html>
