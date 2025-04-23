@@ -27,7 +27,7 @@
     <h1>Explore Event Bubble</h1>
 
 <h1>Explore the comcept of events delegate</h1>
-<ol>
+<ol id="ol">
     <li class="item">my awesome item-1</li>
     <li class="item">my awesome item-2</li>
     <li class="item">my awesome item-3</li>
@@ -35,17 +35,31 @@
     <li class="item">my awesome item-5</li>
     <li class="item">my awesome item-6</li>
 </ol>
+<button id="add-item-btn">add item</button>
 
 
     <script>
-      const items = document.getElementsByClassName('item');
-      for(const item of items){
-        item.addEventListener('click',function(event){
-            // console.log(event.target.parentNode)
+    //   const items = document.getElementsByClassName('item');
+    //   for(const item of items){
+    //     item.addEventListener('click',function(event){
+    //         event.target.parentNode.removeChild(event.target)
+    //     })
+    //   }
 
-            event.target.parentNode.removeChild(event)
-        })
-      }
+
+    document.getElementById('ol')
+    .addEventListener('click',function(event){
+        console.log(event.target)
+    })
+
+      document.getElementById('add-item-btn').addEventListener('click',function(){
+        const ol = document.getElementById('ol');
+        //new item added
+        const li = document.createElement('li');
+        li.classList.add('item');
+        li.innerText = 'my awesome item-7';
+        ol.appendChild(li);
+      })
     </script>
 </body>
 </html>
