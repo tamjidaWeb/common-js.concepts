@@ -14,10 +14,85 @@
 </head>
 <body>
     
+<!-- <h1>dom doma dom events</h1> -->
+<!-- <button onclick="console.log(7)">click me</button> -->
+<!-- <button onclick="console.log(67)">another button</button>
+<button onclick="console.log('i am ckicked')">other button</button>
+<input type="text"> -->
+
+<br>
+<!-- 
+<button onclick="makeYellow()">Make yellow</button>
+<button onclick="makeRed()">make red</button>
+
+<br>
+<button id="btn-make-blue" onclick="makeBlue()">make blue</button>
 
 
-    <script src="dom.js"></script>
-    <script>
+<br>
+<button id="btn-make-purple">make purple</button>
+
+<br> -->
+
+<!-- AddEventListener -->
+<!-- <button id="btn-make-green">make green</button>
+
+<button id="btn-make-gold">Make gold</button> -->
+<h1 id="title-text">Event Handler</h1>
+<button id="btn-update-title">Update Title</button>
+<p id="user-info">no user</p>
+<button id="btn-login">logIn</button>
+<br>
+<br>
+<!-- handle input text -->
+ <p id="name">No Name</p>
+ <input id="input-name" placeholder="your name" type="text">
+ <button id="btn-update">Update</button>
+
+
+<script src="dom.js"></script>
+<script>
+
+    document.getElementById('btn-update').addEventListener('click',function(){
+        // get the text from the input field
+        const nameInput = document.getElementById('input-name');
+        console.log(nameInput.value);
+        const name = document.getElementById('name');
+        name.innerText= nameInput.value;
+
+    })
+document.getElementById('btn-login').addEventListener('click', function(){
+    const userInfo = document.getElementById('user-info');
+    userInfo.innerText= 'user logged succesfully';
+})
+
+
+
+    document.getElementById('btn-update-title').addEventListener('click',function(){
+        const titleText = document.getElementById('title-text');
+        titleText.innerText = ' whats your name?'
+    })
+
+document.getElementById('btn-make-green').addEventListener('click', function makeGreen(){
+    document.body.style.backgroundColor = 'green';
+})
+
+document.getElementById('btn-make-gold').addEventListener('click', function makeGold(){
+    document.body.style.backgroundColor = 'gold';
+})
+
+
+
+
+       
+        function makeYellow(){
+            
+            document.body.style.backgroundColor = 'yellow';
+        }
+
+        function makeRed(){
+            document.body.style.backgroundColor = 'red'
+        }
         // const liCollection = document.getElementsByTagName('li');
         // console.log(liCollection)
 
@@ -34,8 +109,6 @@
 
         // console.log(someLi)
 
-        console.log('embaded inside script tag')
-        
     </script>
 </body>
 </html>

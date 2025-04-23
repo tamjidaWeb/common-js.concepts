@@ -1,13 +1,15 @@
-const main = document.getElementById('main-container');
-const section = document.createElement('section');
-section.innerHTML = `
-    <h1>Welcome to the DOM Manipulation Example</h1>
-    <p>Added a new paragraph for testing</p>
+console.log('dom events');
+//get element by ID and set onclick event
+const btnBlue = document.getElementById('btn-make-blue');
+btnBlue.onclick = function makeBlue(){
+    document.body.style.backgroundColor = 'blue';
+}
 
-    <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-    </ul>
-`;
-main.appendChild(section)
+const makePurple = document.getElementById('btn-make-purple');
+console.log(makePurple);
+
+makePurple.onclick = makePurples;
+
+function makePurples(){
+    document.body.style.backgroundColor = ' purple'
+}
