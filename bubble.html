@@ -40,7 +40,10 @@
 
     <script>
   
-  
+  document.getElementById('ol')
+  .addEventListener('click',function(event){
+    event.target.parentNode.removeChild(event.target)
+  })
         //add new item to the list
         document.getElementById('add-item-btn').addEventListener('click',function(){
             //parent to be added to
