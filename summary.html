@@ -8,14 +8,32 @@
 </head>
 <body>
     <h1>DOM event summary</h1>
-    <input type="text" placeholder="Your Name">
-    <button>Update Name</button>
-    <div>
-        
+    <input id="user-name-input" type="text" placeholder="Your Name">
+    <button onclick=" addName()">Update Name</button>
+    <button id="add-name">Add name 2</button>
+    <div id="name-container">
+
     </div>
 
     <script>
+        function addName(){
+            const nameInput = document.getElementById('user-name-input');
+            const newName = nameInput.value;
+            console.log(newName);
 
+            //parent
+            const nameContainer = document.getElementById('name-container');
+            const p = document.createElement('p');
+            p.innerText= newName;
+            nameContainer.appendChild(p);
+            nameInput.value = '';
+        }
+
+        //add event listener
+        document.getElementById('add-name')
+        .addEventListener('click',function(event){
+            console.log('clicked')
+        })
     </script>
 </body>
 </html>
